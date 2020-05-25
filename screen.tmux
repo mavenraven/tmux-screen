@@ -9,3 +9,6 @@ tmux bind-key "C-p" "previous-window"
 tmux bind-key "C-c" "new-window"
 tmux bind-key "C-k" "kill-window"
 tmux bind-key "C-d" "detach"
+
+#so we can jump to the beginning of a line in bash with C-a-a
+tmux bind-key a send-prefix

@@ -12,3 +12,6 @@ tmux bind-key "C-d" "detach"
 
 #so we can jump to the beginning of a line in bash with C-a-a
 tmux bind-key a send-prefix
+
+#for screen like vi movement in copy paste mode
+tmux set-window-option -g mode-keys vi
